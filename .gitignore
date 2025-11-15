@@ -1,0 +1,82 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Environment variables
+.env
+
+# SQLite database
+*.sqlite3
+
+# Logs
+*.log
+
+# Media and static files (if built locally)
+media/
+staticfiles/
+
+# VS Code settings
+.vscode/
+
+# Pycharm settings
+.idea/
+
+# macOS system files
+.DS_Store
+
+# pip-related files
+pip-log.txt
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# PyCharm settings
+.idea/
+
+# mypy
+.mypy_cache/
+
+# Pyre
+.pyre/
+
+# Build artifacts
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Wheel
+*.whl
+
+# Celery
+celerybeat-schedule
+
+# Backup files
+*.bak
+*.swp
+*~
